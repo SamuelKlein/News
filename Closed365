@@ -1,0 +1,147 @@
+
+...de Open o Open365 tem so o Nome.
+
+Faz algum tempo eu ouvi falar da Solução "livre" em nuvem para o Microft Office 365 ( um suit office totalment na nuvem. essa "solução livre" se chama Open365".
+Que segundo o Google Thrends o site oficial: Open365.io os primeiros registros foram de Dez/2015
+
+fonte: https://www.google.com.br/trends/explore#q=Open365.io
+
+A primeira impressão:
+
+1ª Observação: Ao entrar no site: Open365.io usa um conexão https com um certificado fornecido por: Go Daddy, 
+
+o que não é algo PROIBIDO nos projetos livres, mas é algo incomum pois ja existem iniciativas que fornecem certificados de graça.  Montar um site dessa forma é comum com empresas que fazem softwares proprietários e as vezes, disponibiliza algum código livre.
+
+Bem no centro da página inicial.  vemos algo como:
+
+"Create the first open source cloud with LibreOffice online
+LibreOffice online + Seafile + KDE"
+
+que um tradução livre quer dizer: "Criada a primeira nuvem de código aberto com o LibreOffice on-line
+LibreOffice online + Seafile + KDE"
+
+enfim tudo parece maravilhoso!
+O nome dos Projetos KDE e LibreOffice encheram meus olhos.
+Logo abaixo aparecem outros projetos que supostamente Compõem essa nuvem:
+
+KDE + SeaFile + LibreOffice + Docker + Jitsi
+
+bem abaixo do "Sign in" ve-se a cartada final:
+
+"Open365 is 100% open source. You can download it and deploy to your own servers or use it online for free."
+
+tradução livre:
+"Open365 é 100% de código aberto. Você pode baixá-lo e implantar para seus próprios servidores ou usá-lo on-line de forma livre."
+
+Dai pensei: nossa exatamente como está nas 4 liberdades! Viva! ...Nosssa que legaaaaaaal!
+fonte: http://www.gnu.org/philosophy/free-sw.pt-br.html
+
+Evidências
+
+Dai fui comprovar o que exige as 4 liberdades, infelizmente no site: Open365 não achei nada.
+agora encontrei alguns pontos interessantes:
+
+1º O rodapé do site tem um informação totalmente contrária a CopyLeft
+O "famosão" Copyright, propriedade da EyeOS ou ( © eyeOS 2016. ) pensei talvez seja por causa do logo, sei la, não encontrei referencia do que esse copyright é.
+
+2º em nenhum momento é mencionado qual licença livre de uso esse projeto utiliza.
+Pois para ser um software livre tem que estar de acordo com as 4 Liberdades, que por sua vez estão presentes nas licenças livre:
+fonte: http://www.gnu.org/licenses/license-list.pt-br.html#SoftwareLicenses
+
+Evidências externas - No meu PC Funciona o problema é no seu.
+
+3º a empresa EyeOS tem um conta no Github: https://github.com/eyeos  mas os projetos que estão la, nenhum deles é o Open356.
+
+4º Dos 3 projetos disponibilizados 1 tem licença GPL outro licença Apache e Licença Mit
+Com exceção da GPL do projeto: spice-web-client os podem sim ter seu código "Fechado" mesmo usando a MIT ou Apache.
+Porem como dito antes, para que isso aconteça é necessário que as licenças estejam explícitas no "termo de aceite" ou "termo de uso/privacidade",
+no github nem no site Open365 constam essas informações.
+Isso sem falar que mesmo sendo licenciado o Projeto Open365 não pode utilizar licenças menos restritivas do que seus projetos "pai", exemplo o Projeto LibreOffice utiliza a licença GPL logo qualquer fork( projeto filho) dele, tem que ser compatível com GPL;  entretanto a licença Apache não é compatível com a Licença GNU GPL.
+font: http://www.gnu.org/licenses/license-list.pt-br.html
+
+Evidências Externas 2 - O mal filho a casa retorna.
+
+5º o site oficial da empresa EyeOS, na parte de Produtos não está explicito que o projetos Open365 é uma das suas soluções da empresa.
+Se bem que como informei as buscas do Open365 começaram em dezembro/2015 a data da ultima atualização desse site.
+
+6º na parte inferior informa que "A Telefonica Company" ou seja uma empresa que Pertence ao grupo Telefonica, na parte de "nossa história" consta:
+a data dessa compra foi: 04/2014. fonte: http://www.eyeos.com/en/eyeos/sobrenosotros
+
+7º No site oficial da eyeos não constam informações que a conta do github pertence a essa empresa.
+
+Assine com Sangue meu amigo Fausto.
+
+Depois de entrar em contato por e-mail no site oficial EyeOS e ser ignorado.
+
+Procurando na internet encontrei a pagina:
+https://cloud.open365.io/applogin/
+
+Nessa url consta "Termos e Condições", essas evidências deixam claro quais são as intenções da EyeOS com o Open365: irei reproduzir partes do mesmo para que possamos ter um parecer sobre:
+
+Terms and Conditions ("Terms")
+Last updated: March 07, 2016
+Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the http://www.open365.io website and the Open365 mobile application (the "Service") operated by eyeOS Single-Member LLC ("us", "we", or "our").
+
+Numa tradução literal:
+leia os termos e condições antes de Usar o site: www.open365.io ( onde esta hospedado essa "nuvem aberta" ).
+Ou seja a relação de EyeOS + Open365 é confirmada,
+
+Logo abaixo:
+
+Free Trial
+eyeOS Single-Member LLC may, at its sole discretion, offer a Subscription with a free trial for a limited period of time ("Free Trial").
+
+tradução literal:
+Teste grátis eyeOS Single-Membro LLC poderá, a seu exclusivo critério, oferecer uma assinatura com um teste gratuito por um período limitado de tempo ("Free Trial").
+
+ou seja a "assinatura teste" tem data pra terminar, não necessariamente irá migrar uma licença paga, tal como uma DropBox ou Gdrive.
+
+Quanto ao reembolso, vejam:
+
+Refunds
+Except when required by law, paid Subscription fees are non-refundable.
+
+Quer dizer que o padrão deles em qualquer uma das condições é não reembolsar, com a exceção são para requisições em justiça.
+Uma política antiquada com os usuários, afinal até mesmo aplicativos em cobol podem gerar erros, o que faz alguém pensar que no século 21 alguma empresa está suscetível a não errar nunca?
+
+"Conteúdo" Essa parte confesso que fiquei muito confuso, se eles não veem o conteúdo dos arquivos do que é publicado nessa nuvem ou não.
+
+Content
+Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material ("Content"). You are responsible for the Content that you post to the Service, including its legality, reliability, and appropriateness.
+
+Essa toda aquele blablabla em legalês que quer dizer:
+
+"Você é responsável pelo conteúdo que você postar no Serviço, incluindo a sua legalidade, confiabilidade e adequação."
+algo esperado por um empresa que quer ser idônea, agora os temos abaixo não contribuem com isso:
+
+By posting Content to the Service, you grant us the right and license to use, modify, publicly perform, publicly display, reproduce, and distribute such Con
+tent on and through the Service. You retain any and all of your rights to any Content you submit, post or display on or through the Service and you are responsible for protecting those rights. You agree that this license includes the right for us to make your Content available to other users of the Service, who may also use your Content subject to these Terms.
+
+Ou seja:
+
+Ao publicar o Conteúdo no Serviço, concede-nos o direito e licença para usar, modificar, executar publicamente, exibir publicamente, reproduzir e distribuir tal conteúdo sobre e através do Serviço. Você retém toda e qualquer dos seus direitos de qualquer conteúdo que você enviar, postar ou exibir no ou através do Serviço e você é responsável por proteger esses direitos.
+Você concorda que essa licença inclui o direito para nós para tornar seu conteúdo disponível para outros usuários do serviço, que também pode utilizar o seu Conteúdo sujeito a estes Termos.
+
+Se isso não é usurpar eu não sei o que é.
+isso sem falar a antítese, ja que os termos e condições se apropriam de tudo que está nessa nuvem e se excluem da responsabilidade.
+Agora a parte de disponibilizar para outros é algo irreal, depois de ler isso eu tive que tomar café, pra poder digerir tais informações.
+
+Bala na cabeça.
+
+Ainda nos termos de aceite, indo pra parte mais importante.
+se você ainda não acredita no que falei, talvez isso abra a sua mente:
+
+Intellectual Property
+The Service and its original content (excluding Content provided by users), features and functionality are and will remain the exclusive property of eyeOS Single-Member LLC and its licensors.
+The Service is protected by copyright, trademark, and other laws of both the Spain and foreign countries. Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of eyeOS Single-Member LLC.
+
+em uma tradução literal:
+
+Propriedade intelectual O Serviço e o seu conteúdo original (excluindo conteúdo fornecido pelos usuários), recursos e funcionalidades são e continuarão sendo de propriedade exclusiva da eyeOS Single-Membro LLC e seus licenciadores. O serviço é protegido por direitos autorais, marcas registradas e outras leis, tanto da Espanha e países estrangeiros. Nossos registros e comerciais não podem ser utilizados em conexão com qualquer produto ou serviço sem o consentimento prévio por escrito da eyeOS Single-Membro LLC.
+
+Conclusão:
+
+O Projeto Open365 é defendido com propriedade intelectual, algo inexistente nas licenças livres e softwares livres.
+Foi muito difícil achar as informações sobre o que postei, ja que a empresa não faz questão de ser clara no que diz respeito a esse serviço.
+Se você não quiser que seus direitos a propriedade privada seja violados não use esse serviço!
+Fique sempre atento aos termos de aceita antes de usar um serviço, pois eles podem deixar a suas liberdade algum menor, como liberdade não é algo mensurável e portanto não pode ser reduzido, o correto é afirmar que você estará preso a ele, tornando assim totalmente contra as ideias de software livre.
